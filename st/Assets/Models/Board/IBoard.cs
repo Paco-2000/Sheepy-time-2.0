@@ -14,11 +14,13 @@ public interface IBoard
 
     public void IncreaseFenceCrossings(String name); // Increases the number of fence crossings
 
-    public void ClearFenceCrossings(String Name); // Clears the number of fence crossings
+    public void ClearFenceCrossing(String name); // Clears the number of fence crossings of the entity
 
-    public void ClearEntityPosition(String Name); // Clears the position of the entity
+    public void ClearFenceCrossings(); // Clears the number of fence crossings
 
-    public IDreamTile GetDreamTile(String Name); // Returns the DreamTile at the players position on the board
+    public void ClearEntityPosition(String name); // Clears the position of the entity
+
+    public IDreamTile GetDreamTile(String name); // Returns the DreamTile at the players position on the board
 
     public void AddDreamTile(IDreamTile dreamTile, int position); // Adds a DreamTile to the board
 
@@ -36,5 +38,4 @@ public interface IBoard
 
     public void ResetBoard(); // Resets the board
 
-    public int GetBoardSize(); // Returns the size of the board
 }
