@@ -234,4 +234,12 @@ public class Board : MonoBehaviour, IBoard
         board = dtArray;
     }
 
+    /// <summary>
+    /// Sets the nightmare id (should be done on game initialization)
+    /// </summary>
+    /// <param name="id">Nightmare id</param>
+    public void SetNightmareId(string id){
+        nightmareId = id;
+    }
+
 }

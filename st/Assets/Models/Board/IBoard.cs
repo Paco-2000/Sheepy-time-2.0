@@ -38,4 +38,6 @@ public interface IBoard
 
     public void ResetBoard(); // Resets the board
 
+    public void SetNightmareId(string id); // Initializes the nightmare id
+
 }
