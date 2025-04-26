@@ -8,4 +8,10 @@ public class Constants
 
     public const int playerHandSize = 2;
 
+    public const int wokeUpState = 2;
+
+    public const int scaredState = 1;
+
+    public const int asleepState = 0;
+
 }
